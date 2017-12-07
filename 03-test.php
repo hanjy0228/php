@@ -8,8 +8,9 @@
 if(isset($_POST['sub'])){
 //echo "success";
     $ss=$_POST['num'];
-    $arr=arry(1,2);
+    $arr=array(1,2);
 //    unset($ss);
+    unset($arr);
     print_r($arr);
 //    echo $ss;
 }

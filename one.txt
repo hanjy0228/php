@@ -1,3 +1,5 @@
+Apache 80 443被占用改成81访问浏览器时http://localhost:81/php-one/03-test.php
+
 服务器传输：webserver(Ngnix,Apache,Tomcat,resin,Weblogic)
 
 80--http
@@ -36,7 +38,13 @@ php语法通过php.ini解析转化成html语句，通过Apache封包打包成包
 
 //var_dump查看标量数据类型
 //print_r显示复合数据类型
+//echo ('pre')源码输出
 
 变量定义时区分大小写，函数区分大小写
 
 变量是否存在，在内存中销毁变量 isset,unset
+
+phpinfo();和var_dump($_server);可打印PHP Version 5.6.3
+
+加密：单向不可逆  md5,rc6,rsa
+
