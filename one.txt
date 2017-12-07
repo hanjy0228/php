@@ -20,4 +20,23 @@ WAMP/LAMP
 
 php语法通过php.ini解析转化成html语句，通过Apache封包打包成包体数据，通过Chrome访问
 
+//php可以内嵌html,js
 
+//三码一致 ：文件编码，浏览器解码，数据库编码，否则乱码
+//文件编码：ANSI、unicode、utf-8
+//浏览器解码：取决于当前浏览器安装的语言版本GBK/GB2312/GB1080/
+//数据库编码：UTF-8 ，sentEncodeing()
+
+//php变量当前文件下有效
+
+//php数据类型
+//四个标量类型：int,float,string,bool
+//两个复合类型：array，object
+//两个特殊类型：resource,null
+
+//var_dump查看标量数据类型
+//print_r显示复合数据类型
+
+变量定义时区分大小写，函数区分大小写
+
+变量是否存在，在内存中销毁变量 isset,unset
