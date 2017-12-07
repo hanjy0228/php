@@ -1,0 +1,23 @@
+服务器传输：webserver(Ngnix,Apache,Tomcat,resin,Weblogic)
+
+80--http
+443--https ssl
+
+sniffer wireshark password ftp http 加密（可逆/不可逆）%2d%3c%5a
+
+https://www.alipy.com
+http://www.163.com
+ftp://www.hd.com
+
+文件格式：可执行PE,ELF，不可执行
+windows配置文件： .ini
+lunix配置文件：.config
+hosts:  ip-域名的指令 C:/Windows/System64/driers/rtc
+
+202.331.42.155  www.twitter.com,hosts中配smarthosts
+
+WAMP/LAMP
+
+php语法通过php.ini解析转化成html语句，通过Apache封包打包成包体数据，通过Chrome访问
+
+
